@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    height: 50px;
+    background-color: rgb(132, 169, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 550px;
+    color: white;
+
+}
+
+.nav-links {
+    list-style-type: none;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 250px 10px 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbodycontainer {
+    border-bottom: 3px solid black;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 720px;
+}
+
+.navbodycontainertemperature {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.daysbodycontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.container-img {
+    background-color: rgb(207, 204, 204);
+    width: 240px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgdays {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.containerimgtemperature {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.max {
+    color: red;
+    font-size: 120%;
+}
+
+.min {
+    color: blue;
+    font-size: 120%;
+}
+
+.bodyContainerMessage {
+    height: 130px;
+    width: 1030px;
+    margin-top: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 600px;
+}
+
+.bodyContainerMessage img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.btn_menssaje {
+    background-color: rgb(132, 169, 243);
+    box-shadow: 5px 5px black;
+    height: 30px;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 3px solid black;
+}

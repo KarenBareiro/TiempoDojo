@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tiempoDojo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Dojo Weather</h1>
+        <ul class="nav-links">
+            <li><a onclick="alertMessage()" href="#">Burbank</a></li>
+            <li><a onclick="alertMessage()" href="#">Chicago</a></li>
+            <li><a onclick="alertMessage()" href="#">Dallas</a></li>
+        </ul>
+    </div>
+    <div class="body-container">
+        <div class="navbodycontainer">
+            <h1>San Jose</h1>
+            <div class="navbodycontainertemperature">
+                <p>show temperature in</p>
+                <select onchange="convert(this)" name="selecttemperature">
+                    <option>c°</option>
+                    <option>f°</option>
+                </select>
+            </div>
+        </div>
+        <div class="daysbodycontainer">
+            <div class="container-img">
+                <h2>Today</h2>
+                <img class="imgdays" src="./assets/some_rain.png" alt="some_rain.png">
+                <p>some rain</p>
+                <div class="containerimgtemperature">
+                    <p class="max">24</p>
+                    <p class="min">18</p>
+                </div>
+            </div>
+            <div class="container-img">
+                <h2>Tomorrow</h2>
+                <img class="imgdays" src="./assets/some_sun.png" alt="some_sun.png">
+                <p>some sun</p>
+                <div class="containerimgtemperature">
+                    <p class="max">27</p>
+                    <p class="min">19</p>
+                </div>
+            </div>
+            <div class="container-img">
+                <h2>Friday</h2>
+                <img class="imgdays" src="./assets/some_clouds.png" alt="some_clouds.png">
+                <p>some clouds</p>
+                <div class="containerimgtemperature">
+                    <p class="max">21</p>
+                    <p class="min">16</p>
+                </div>
+            </div>
+            <div class="container-img">
+                <h2>Saturday</h2>
+                <img class="imgdays" src="./assets/some_sun.png" alt="some_sun.png">
+                <p>some sun</p>
+                <div class="containerimgtemperature">
+                    <p class="max">26</p>
+                    <p class="min">21</p>
+                </div>
+            </div>
+        </div>
+        <div class="bodyContainerMessage">
+            <img src="./assets/cookie.png" alt="cookie.png">
+            <div class="containermenssaje">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="#"> Read more...</a></p>
+            </div>
+            <button onclick="removeMessage()" class="btn_menssaje">I Accept</button>
+        </div>
+    </div>
+    <script src="./tiempoDojo.js"></script>
+</body>
+
+</html>
